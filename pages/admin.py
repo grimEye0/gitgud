@@ -15,7 +15,7 @@ st.markdown("""
 API_BASE_URL = "https://gitgud-cww7.onrender.com/"
 
 if st.button("🏠 Go Back to Home"):
-    st.switch_page("pages/main.py")
+    st.switch_page("main.py")
 
 # Function to handle login
 def login(username, password):
