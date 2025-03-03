@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+catboost
+scikit-learn
+flask
+flask_jwt_extended
+flask_bcrypt
+google-generativeai
+requests
+matplotlib
+seaborn
+watchdog
