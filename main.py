@@ -107,7 +107,7 @@ if st.button('Recommend', key='rfr_detect'):
     st.success(f"☕ The coffee we recommend is: **{recommended_coffee}**")
 
     # Display the image
-    image_path = f"images/{recommended_coffee}.png"
+    image_path = f"Images/{recommended_coffee}.png"
     if os.path.exists(image_path):
         st.image(image_path, caption=f"{recommended_coffee}", use_container_width=True)
     else:
